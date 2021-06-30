@@ -10,7 +10,7 @@ EditorBuildSettings:
     guid: f582b9b1c55730e468ae849091cd74ef
   - enabled: 1
     path: Assets/Rush&Break/Scenes/Level_1.unity
-    guid: 9d4111d70bc17f84d8fabffb3baa640b
+    guid: 3d171a88abbaec247a305088cad79e70
   - enabled: 1
     path: Assets/Rush&Break/Scenes/Level_2.unity
     guid: 1d294e18568483d4e9b795a2dbea7a27
@@ -82,7 +82,7 @@ EditorBuildSettings:
     guid: 0c8b7080e269e0e42a724e556c23c07f
   - enabled: 1
     path: Assets/Rush&Break/Scenes/Level_25.unity
-    guid: 3d171a88abbaec247a305088cad79e70
+    guid: 9d4111d70bc17f84d8fabffb3baa640b
   - enabled: 1
     path: Assets/Rush&Break/Scenes/Level_26.unity
     guid: cff60c2a7ec6b18449d148f858ad0674
