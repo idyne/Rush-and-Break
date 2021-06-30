@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &986282254588055368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6597502082737580693}
+  - component: {fileID: 2332764572543852589}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6597502082737580693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986282254588055368}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2332764572543852589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986282254588055368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2715271b698bdf478400f8b54768287, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: Agent
+    prefab: {fileID: 8129971601129194380, guid: cb30669bde0a8d74c8418277827a44b7, type: 3}
+    size: 100
+  - tag: Wall Break Effect
+    prefab: {fileID: 4156588005161769465, guid: dc5df9b97cb5d9f448fdecc72bd4ba15, type: 3}
+    size: 10
+  - tag: Agent Death Effect
+    prefab: {fileID: 850948008562997615, guid: 968e72fc0e0eb934aa9fc27a6cc4421e, type: 3}
+    size: 10
+  - tag: Operator Effect
+    prefab: {fileID: 6994584141328823216, guid: efa2d9f9071d0a94a86ecbf7885e76cb, type: 3}
+    size: 15
+  - tag: Gain Text
+    prefab: {fileID: 322736334666081744, guid: 175d95a043d3d2249bef520df0d44153, type: 3}
+    size: 100
+  - tag: Hammer Effect
+    prefab: {fileID: 7036112681051126331, guid: 29095cc9b88667943bc1820d8880d8d3, type: 3}
+    size: 15
+  - tag: Bonus Wall Break Effect
+    prefab: {fileID: 4156588005161769465, guid: 8fdbb185ea2840046a767147a3e39510, type: 3}
+    size: 15
+  - tag: Coin Collect Effect
+    prefab: {fileID: 5503000653519521045, guid: 975d0906c8a509043afd3f7187b5857a, type: 3}
+    size: 15
+  - tag: Confetti Effect
+    prefab: {fileID: 4786056378375646114, guid: c7493b53de6082744bac4de125372862, type: 3}
+    size: 15
