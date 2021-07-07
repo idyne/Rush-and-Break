@@ -5590,7 +5590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6986708613096281858, guid: d484b9d7f3a0b2543bc165e3404d9183, type: 3}
       propertyPath: bonusMaxSize
-      value: 500
+      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d484b9d7f3a0b2543bc165e3404d9183, type: 3}

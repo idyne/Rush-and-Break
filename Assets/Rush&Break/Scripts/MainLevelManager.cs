@@ -45,6 +45,15 @@ public class MainLevelManager : LevelManager
         toLevelText = GameObject.Find("To").GetComponentInChildren<Text>();
         fromLevelText.text = GameManager.Instance.CurrentLevel.ToString();
         toLevelText.text = (GameManager.Instance.CurrentLevel + 1).ToString();
+        
+
+    }
+    private void Start()
+    {
+        Canvas[] canvases = FindObjectsOfType<Canvas>();
+        for (int i = 0; i < canvases.Length; i++)
+            if (canvases[i].renderMode == RenderMode.WorldSpace)
+                canvases[i].worldCamera = mainCamera;
     }
 
     private void Update()

@@ -12,7 +12,7 @@ public class Adder : Operator
         Troop troop = levelManager.Troop;
         troop.PushAgents(number);
         DoHaptic();
-        //ObjectPooler.Instance.SpawnFromPool("Operator Effect", transform.position, Quaternion.identity);
+        ObjectPooler.Instance.SpawnFromPool("Operator Effect", transform.position, Quaternion.identity);
     }
 
     protected override void SetText()

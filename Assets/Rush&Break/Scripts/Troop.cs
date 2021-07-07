@@ -15,7 +15,7 @@ public class Troop : MonoBehaviour
     [SerializeField] private float speed = 8;
     [SerializeField] private float horizontalSpeed = 4;
     [SerializeField] private Transform troopSizeTransform = null;
-    [SerializeField] private Text troopSizeText = null;
+    [SerializeField] private TextMeshProUGUI troopSizeText = null;
     [SerializeField] private int size = 0;
     [SerializeField] private Agent leader = null;
     [SerializeField] private List<Agent> agents = null;
@@ -174,6 +174,7 @@ public class Troop : MonoBehaviour
     }
     public void DequeueAgents(int number)
     {
+        number = Mathf.Clamp(number, 0, size);
         if (size - number >= maxNumberOfAgentObjects)
         {
             int newNumber = Mathf.Clamp(number, 0, maxNumberOfAgentObjects / 2);
@@ -189,9 +190,7 @@ public class Troop : MonoBehaviour
         }
 
         AppearGainText(-number);
-        if (size == 0)
-            levelManager.FinishLevel(false);
-        else
+        if (size > 0)
             PlaceAgents();
     }
     public void PopAgent(bool place = true)
@@ -210,8 +209,6 @@ public class Troop : MonoBehaviour
             PopAgent(false);
         size = Mathf.Clamp(size - (number - newNumber), 0, size);
         AppearGainText(-number);
-        if (size == 0)
-            levelManager.FinishLevel(false);
     }
     public void RemoveAgent(Agent agent, bool place = true, bool haptic = false)
     {

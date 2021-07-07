@@ -1223,7 +1223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3973871772826564607, guid: d82a220c30e2f734ea5173c15ad7f79f, type: 3}
       propertyPath: wallSizes.Array.data[0]
-      value: 80
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3973871772826564607, guid: d82a220c30e2f734ea5173c15ad7f79f, type: 3}
       propertyPath: wallSizes.Array.data[1]
@@ -4099,7 +4099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3973871772826564607, guid: d82a220c30e2f734ea5173c15ad7f79f, type: 3}
       propertyPath: wallSizes.Array.data[2]
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3973871772826564607, guid: d82a220c30e2f734ea5173c15ad7f79f, type: 3}
       propertyPath: wallSizes.Array.data[3]

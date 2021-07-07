@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using FateGames;
+using TMPro;
 
 public class Wall : MonoBehaviour
 {
     [HideInInspector] public WallSet WallSet = null;
     [HideInInspector] public int MaxSize = 10;
-    [SerializeField] private Text sizeText = null;
+    [SerializeField] private TextMeshProUGUI sizeText = null;
     [SerializeField] private MeshRenderer rend = null;
     [Header("Bonus")]
     [SerializeField] private bool isBonus = false;

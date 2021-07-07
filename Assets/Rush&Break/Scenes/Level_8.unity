@@ -2831,7 +2831,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3973871772826564607, guid: d82a220c30e2f734ea5173c15ad7f79f, type: 3}
       propertyPath: wallSizes.Array.data[1]
-      value: 55
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3973871772826564607, guid: d82a220c30e2f734ea5173c15ad7f79f, type: 3}
       propertyPath: wallSizes.Array.data[2]
@@ -3475,7 +3475,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1034950515277811354, guid: 302cb61af696b614d843650da9c2abe4, type: 3}
       propertyPath: number
-      value: 30
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8689193521051189344, guid: 302cb61af696b614d843650da9c2abe4, type: 3}
       propertyPath: m_Name
@@ -4169,7 +4169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3973871772826564607, guid: d82a220c30e2f734ea5173c15ad7f79f, type: 3}
       propertyPath: wallSizes.Array.data[0]
-      value: 50
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3973871772826564607, guid: d82a220c30e2f734ea5173c15ad7f79f, type: 3}
       propertyPath: wallSizes.Array.data[1]
@@ -4746,7 +4746,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3973871772826564607, guid: d82a220c30e2f734ea5173c15ad7f79f, type: 3}
       propertyPath: wallSizes.Array.data[2]
-      value: 100
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3973871772826564607, guid: d82a220c30e2f734ea5173c15ad7f79f, type: 3}
       propertyPath: wallSizes.Array.data[3]
